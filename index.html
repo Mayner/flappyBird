@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flappyBird</title>
+    <style>
+        canvas {
+            position: absolute;
+            left: 50%;
+            margin-left: -400px;
+        }
+        #btn {
+            margin-left: 200px;
+            font-size: 14px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<canvas width="800" height="600" id="cvs"></canvas>
+<button id="btn">重新开始</button>
+<script src="seajs/2.2.0/sea.js"></script>
+<script>
+    seajs.use('./main');
+</script>
+</body>
+</html>
